@@ -1,0 +1,12 @@
+target_name = 'monthly_sales'
+raw_data = "./input/sales_train.csv"
+x_test_path = './input/x_test.csv'
+y_test_path = './input/y_test.csv'
+preprocessed_data = "./output/preprocessed.csv"
+preprocessed_data_small = "./output/preprocessed_small.csv"
+x_reduced_path = "./output/X_reduced.csv"
+x_path = "./output/X.csv"
+y_path = "./output/y.csv"
+predicted_path = "./output/predicted.csv"
+output_path = "output/"
+model_path = "output/model/"
