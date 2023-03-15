@@ -18,6 +18,7 @@ xgboost = "*"
 ann-visualizer = "*"
 graphviz = "*"
 pydot = "*"
+requests = "*"
 
 [dev-packages]
 
