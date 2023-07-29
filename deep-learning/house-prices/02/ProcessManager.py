@@ -94,7 +94,7 @@ class ProcessManager:
             print('\n> Model:', m['name'])
             print("For Test Data: ", Xt.shape)
             print("- MAE: ", res['mae'])
-            # print("- MAE %: ", res['mape'])
+            print("- MAE %: ", res['mape'])
             print("- MSE: ", res['mse'])
             print("- RMSE: ", res['rmse'])
             print(" [time secs: ", (time.time() - start_time), "]")

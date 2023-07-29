@@ -1,9 +1,9 @@
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
-from libs.simple_processing import separate_target, split_train_test
-from sklearn.preprocessing import MinMaxScaler
-import umap
-from sklearn.decomposition import PCA
 from sklearn import preprocessing
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import MinMaxScaler
+
+from libs.simple_processing import separate_target, split_train_test
 
 
 class PandasDataManager:

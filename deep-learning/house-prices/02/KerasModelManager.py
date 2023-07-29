@@ -91,7 +91,7 @@ class KerasModelManager:
         res['rmse'] = np.sqrt(metrics.mean_squared_error(y, self.y_pred))
         # res['r2_square'] = metrics.r2_score(y, self.y_pred)
         res['mae'] = metrics.mean_absolute_error(y, self.y_pred)
-        # res['mape'] = metrics.mean_absolute_percentage_error(y, self.y_pred)
+        res['mape'] = metrics.mean_absolute_percentage_error(y, self.y_pred)
         return res
 
     def predict_report(self, X, y, plot_predictions=False):
