@@ -12,7 +12,3 @@ generator = pipeline("text-generation", model=checkpoint)
 res = generator("Can you write Cypress tests? Provide an example.")
 
 print(res)
-
-
-
-#%%
